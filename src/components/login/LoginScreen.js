@@ -1,8 +1,8 @@
 import React from 'react'
 
-const LoginScreen = () => {
+const LoginScreen = ({history}) => {
     const handleLogin = () => {
-        console.log('click')
+        history.replace('/')
     }
     
     return (
